@@ -1,0 +1,5 @@
+
+
+Ok, so its possible and even with no warning. Its just not executed.
+
+And after googleing it apperently dead code is a thing in c++.
