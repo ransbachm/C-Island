@@ -12,7 +12,7 @@ struct Person {
 	void drucke(); // mark in struct 'declare'
 };
 
-// implement, instancevariables are accessable
+// implement, instance variables are accessable
 void Person::drucke() {
 	cout << name_ << 
 		" (" << alter_ << ") aus " << ort_ << "\n";
