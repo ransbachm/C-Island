@@ -18,6 +18,6 @@ struct Day : public Value {
 };
 
 
-Year::lastDay() const {
+Date Year::lastDay() const {
 	return Date{Year{value_}, Month{12}, Day{31}};
 }
