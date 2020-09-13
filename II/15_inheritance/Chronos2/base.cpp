@@ -1,5 +1,5 @@
 #include "base.hpp"
 
-std::ostream& Base::print(std::ostream& os) const {
-    os << value_;
+std::ostream& base::print(std::ostream& os) const {
+    return os << value_;
 }
