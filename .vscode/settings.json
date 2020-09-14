@@ -60,6 +60,16 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "csetjmp": "cpp",
+        "codecvt": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp"
+    },
+
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "clear && cd $dir && g++ -std=c++14 *.cpp  -o $fileNameWithoutExt.o && $dir$fileNameWithoutExt.o",
     }
+
 }
