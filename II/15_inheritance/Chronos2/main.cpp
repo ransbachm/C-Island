@@ -10,6 +10,6 @@ int main() {
 
     cout << d << "\n";
     date.print(cout) << "\n";
-    //cout << date;
+    cout << date;
 
 }
