@@ -9,7 +9,7 @@ int main() {
     date date {2020};
 
     cout << d << "\n";
-    //date.print(cout); //<< "\n";
+    date.print(cout) << "\n";
     //cout << date;
 
 }
