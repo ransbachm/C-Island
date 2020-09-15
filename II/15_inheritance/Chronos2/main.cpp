@@ -1,16 +1,17 @@
 #include <iostream>
 #include "base_impl.hpp"
 
-int main() {
-    using std::cout;
-    using namespace chronos2;
+using std::cout;
 
-    day d {12};
-    date date {2020};
+int main() {
+
+    chronos2::day d {12};
+    chronos2::date date {2020};
+
 
     d.print(cout);
     cout << "\n";
     date.print(cout) << "\n";
-    cout << date;
+    cout << date << "\n";
 
 }
