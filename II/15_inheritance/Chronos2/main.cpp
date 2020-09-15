@@ -2,16 +2,20 @@
 #include "base_impl.hpp"
 
 using std::cout;
+using chronos2::date; using chronos2::day;
+using chronos2::year;
 
 int main() {
 
-    chronos2::day d {12};
-    chronos2::date date {2020};
-
+    day d {12};
+    date date {2020};
+    year y {3939};
+    
 
     d.print(cout);
     cout << "\n";
     date.print(cout) << "\n";
     cout << date << "\n";
+    cout << "Last day : " << y.getLastDay() << "\n";
 
 }

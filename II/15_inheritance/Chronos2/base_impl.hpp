@@ -3,7 +3,10 @@
 
 #include "base.hpp"
 
+
 namespace chronos2 {
+    class date; // fordward declaration
+
     class day : public base {
     public:
         explicit day(int v) : base{v} {}
@@ -17,6 +20,7 @@ namespace chronos2 {
     class year : public base {
     public:
         explicit year(int v) : base{v} {}
+        date getLastDay() const;
     };
 
     class date {
