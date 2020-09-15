@@ -17,5 +17,6 @@ int main() {
     date.print(cout) << "\n";
     cout << date << "\n";
     cout << "Last day : " << y.getLastDay() << "\n";
+    cout << y.getName() << " | " << d.getName() << "\n";
 
 }

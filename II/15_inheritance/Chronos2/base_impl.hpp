@@ -10,17 +10,24 @@ namespace chronos2 {
     class day : public base {
     public:
         explicit day(int v) : base{v} {}
+         // override
+        std::string getName() const {return "month";}
     };
 
     class month : public base {
     public:
         explicit month(int v) : base{v} {}
+         // override
+        std::string getName() const {return "month";}
     };
 
     class year : public base {
     public:
         explicit year(int v) : base{v} {}
         date getLastDay() const;
+        // override
+        std::string getName() const {return "year";}
+
     };
 
     class date {
