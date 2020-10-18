@@ -1,5 +1,5 @@
 #include <iostream>
-#include "myValue.hpp"
+#include "../myValue.hpp"
 
 void function(MyValue val) { // call by value
     std::cout << "(function)\n";
