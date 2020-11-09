@@ -16,8 +16,3 @@ class MyValue2 {
 
 
 #endif
-
-
-int main() {
-
-}
