@@ -10,8 +10,8 @@ class computer {
     int id_;
     string type_;
 public:
-    virtual string getName() const;
-    virtual bool isOn() const;
+    virtual string getName() const = 0;
+    virtual bool isOn() const = 0;
 };
 
 #endif
