@@ -29,8 +29,8 @@ public:
 
 };
 
-void leek() {
-    // this would leek memory
+void leak() {
+    // this would leak memory
     try {
         //cout << "Now creating s1\n";
         auto s1 = bi_value_store{"ABC", "DEF"};
@@ -44,7 +44,7 @@ void leek() {
 }
 
 int main() {
-    while(true) leek();
+    while(true) leak();
 }
 
 
