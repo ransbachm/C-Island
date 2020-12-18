@@ -79,6 +79,6 @@ int main() {
         [=](gzFile_s* f) {gzclose(f); cout<< "Close 2.nd file\n";} // "custom deleter"  withlambda
     };
     if(gz2.get() == NULL) throw std::runtime_error("Error opeining the second file");
-    auto res = gzwrite(gz2.get(), data.data(), data.size());
+    auto res = gzwrite(gz2.get(), data2.data(), data2.size());
     if(res == 0) throw std::runtime_error("Error writing to the second file");
 }
