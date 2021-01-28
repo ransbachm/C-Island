@@ -11,7 +11,7 @@ class CopyTester {
 
 public:
     CopyTester() {
-        int val_ = instances++;
+        val_ = instances++;
     }
 
     bool operator==(CopyTester& other) {
