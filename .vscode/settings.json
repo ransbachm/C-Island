@@ -69,7 +69,7 @@
 
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
-        "cpp": "clear && cd $dir && g++ *.cpp -o $fileNameWithoutExt.o && $dir$fileNameWithoutExt.o",
+        "cpp": "clear && cd $dir && g++ *.cpp -std=c++17 -o $fileNameWithoutExt.o && $dir$fileNameWithoutExt.o && rm $dir$fileNameWithoutExt.o",
     }
 
 }
