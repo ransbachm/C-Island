@@ -33,3 +33,7 @@
 
 main
 *.gz
+
+
+#vscode
+settings.json
